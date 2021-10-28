@@ -6,23 +6,23 @@ public class Actor {
     String nombre;
     String apellido;
     String pais;
-    int añoNacimiento;
+    int anioNacimiento;
 
 
     //CONSTRUCTORES
 
-    public Actor(String nombre, String apellido, String pais, int añoNacimiento) {
+    public Actor(String nombre, String apellido, String pais, int anioNacimiento) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.pais = pais;
-        this.añoNacimiento = añoNacimiento;
+        this.anioNacimiento = anioNacimiento;
     }
 
 
     //METODOS
 
     public int calcularEdad (int anioActual){
-        int edad = this.añoNacimiento - anioActual;
+        int edad = this.anioNacimiento - anioActual;
         return edad ;
     }
 
@@ -50,12 +50,12 @@ public class Actor {
         this.pais = pais;
     }
 
-    public int getAñoNacimiento() {
-        return añoNacimiento;
+    public int getAnioNacimiento() {
+        return anioNacimiento;
     }
 
-    public void setAñoNacimiento(int añoNacimiento) {
-        this.añoNacimiento = añoNacimiento;
+    public void setAnioNacimiento(int anioNacimiento) {
+        this.anioNacimiento = anioNacimiento;
     }
 
     @Override
