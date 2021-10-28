@@ -1,3 +1,47 @@
 Alumno : Juan Manuel Gauna
 Profesor: Abelardo Jose Lugo
 Primer examen de Programacion Orientada a objetos
+
+Problema
+Defina una clase llamada Actor con los siguientes atributos: nombre (String), apellido(String), pais
+(String) y anioNacimiento (int). Un constructor que reciba cuatro parámetros, para asignar como valor
+a cada atributo. Un método que se llame calcularEdad y reciba como parámetro anioActual y retorne
+como resultado un número entero igual a la resta de anioActual menos anioNacimiento. Sobre escriba
+el método toString en la clase Actor para que retorne la siguiente cadena de caracteres formada con
+los atributos de la clase: `Actor: nombre apellido (pais) ́.
+Defina una clase llamada Pelicula con los siguientes atributos: titulo (String), duracion (int), anio
+(int), categoria (String) y actores (ArrayList<Actor>). Defina dos constructores, uno que reciba como
+parámetros todos los atributos mencionados excepto el atributo actores, y otro constructor que solo
+reciba como parámetro el titulo de la clase Pelicula. Adicional, un método que permita agregar un
+objeto del tipo Actor al atributo actores y otro método que reciba un objeto Actor como parámetro y
+elimine el Actor del atributo actores. Un método llamado mostrarActores que imprima en la primera
+linea el siguiente mensaje por pantalla con el atributo titulo de la clase Pelicula `Actores de la película
+titulo ́ seguido de cada objeto Actor en el atributo actores (sugerencia: use un bucle for en el atributo
+actores de la clase Pelicula). Por último sobre escriba el método toString de la clase Pelicula para que
+retorne la siguiente cadena de caracteres formada con los atributos de la clase: `Película: titulo (anio) ́.
+Defina una clase llamada Cine con los siguientes atributos: nombre (String), ciudad (String) y
+peliculas (ArrayList<Pelicula>). Defina dos constructores, el primero debe recibir como parámetros
+los valores de los atributos nombre y ciudad, el segundo constructor solo recibe como parámetro el
+valor del atributo nombre de la clase Cine. Adicional, un método que permita agregar un objeto del
+tipo Pelicula al atributo peliculas y otro método que reciba un objeto Pelicula como parámetro y
+elimine la Pelicula del atributo pelicula. Un método llamado mostrarPeliculas que imprima en la
+primera linea el siguiente mensaje por pantalla con el atributo nombre de la clase Pelicula `Peliculas
+de la cartelera en nombre ́ seguido de cada objeto Pelicula en el atributo peliculas (sugerencia: use
+un bucle for en el atributo peliculas de la clase Cine). Por último, sobre escriba el método toString de
+la clase Cine para que retorne la siguiente cadena de caracteres formada con los atributos de la clase:
+`Bienvenido al cine: nombre ́.
+Cree una clase Main, con un método main e instancie cuatro objetos Actor con los siguientes
+identificadores: primerActor, segundoActor, tercerActor, cuartoActor (Nota: use su primer y segundo
+nombre para el atributo nombre, use sus apellidos para el atributo apellido, asigne 1980 en
+anioNacimiento y asigne “Argentina” en el atributo pais). Instacie dos objetos Pelicula con los
+identificadores: primeraPelicula ("Titanic", 120, 2000, "Romance") y segundaPelicula ("El Rey
+León", 120, 2000, "Infantil"). Y un objeto Cine llamado nuevoCine ("Nuevo Cine", "Buenos Aires").
+Agregue el objeto primerActor y segundoActor al objeto primeraPelicula, y agregue el objeto
+tercerActor y cuartoActor al objeto segundaPelicula. Agregue los objetos primeraPelicula y
+segundaPelicula al objeto nuevoCine. Invoque el método mostrarActores en el objeto primeraPelicula
+y segundaPelicula. Invoque el método mostrarPeliculas en el objeto nuevoCine.
+Sugerencias: Defina todos los métodos con acceso público. Comente el código. Deje línea por
+medio si va a instanciar un objetos de distinta clases.
+
+Éxitos.
+
